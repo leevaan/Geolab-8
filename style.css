@@ -1,0 +1,34 @@
+html{
+    padding: 2% 3%;
+}
+.leftUL{
+    display: inline-block;
+    margin-right: 5%;
+}
+.explord{
+    color: black;
+    text-transform: uppercase;   
+}
+.explord::before{
+    content: url('bullet_blue.png');
+    margin-right: 5px;
+}
+header p{
+    display: inline-block;
+}
+nav{
+    float: right;
+   
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+}
+nav ul li{
+    margin-left:30px;
+    display: inline-block;
+}
+/* nav::after{
+    content: '';
+    clear: right;
+} */
