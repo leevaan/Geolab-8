@@ -163,7 +163,6 @@ input{
 }
 input:focus{
     border: 3px solid #5dc5de;
-    color: rgba(190, 190, 190, 0.637);
 }
 .subs{
     width: 45%;
